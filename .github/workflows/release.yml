@@ -45,7 +45,8 @@ jobs:
             done
             cp README.md "$out/"
             cp data/config.yaml "$out/data/"
-            cp data/finance_bot.db "$out/data/"
+            # no DB is shipped: *.db is gitignored (live trade history) and
+            # the bot creates a fresh data/finance_bot.db itself on first run
             name="go_finance_bot_${VERSION}_${GOOS}_${GOARCH}"
             if [ "$GOOS" = "windows" ]; then
               (cd "$out" && zip -qr "../${name}.zip" .)

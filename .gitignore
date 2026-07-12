@@ -1,5 +1,8 @@
 # local config with secrets
 config.yaml
+# except the committed default shipped in releases — this file must contain
+# NO real api keys/tokens (put live keys in env vars or a local override)
+!data/config.yaml
 
 # binaries
 /bot
@@ -10,6 +13,8 @@ config.yaml
 *.db
 *.db-journal
 *.db-wal
+# except the published schema-only example
+!finance_bot.example.db
 
 # env
 .env
